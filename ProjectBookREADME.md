@@ -111,11 +111,11 @@ The population of orders we are working with is 2,155 entries. Each order may or
 
 ### Explore Population Data
 
-![png](output_58_0.png)
+![](ProjectBookPics/output_58_0.png)
 
-![png](output_59_1.png)
+![](ProjectBookPics/output_59_1.png)
 
-![png](output_60_0.png)
+![](ProjectBookPics/output_60_0.png)
 
 
 ### Set Control Groups
@@ -128,7 +128,7 @@ The population of orders we are working with is 2,155 entries. Each order may or
 
 > The **experimental group** is comprised of orders that did receive a discount.
 
-![png](output_66_0.png)
+![](ProjectBookPics/output_66_0.png)
 
 Overall, the distributions for these two groups are very positively skewed. However, these two distributions follow relatively the same shape. So, we could expect the data to fall in the same manner around the means. 
 
@@ -136,13 +136,13 @@ Overall, the distributions for these two groups are very positively skewed. Howe
 
 Because there are unequal variances in the two populations (with a discount and without), the Welch’s t-test can analyze if the two populations have unequal means. This should answer the first part of the question. To do this, the method used will include the Statsmodels library.
 
-![png](output_71_0.png)
+![](ProjectBookPics/output_71_0.png)
 
 **Welch's T-Test Result**: statistic = 6.4785, pvalue = 1.14409e-10
 
 **Cohen’s d Test**: Result = 0.2863
 
-![png](output_76_0.png)
+![](ProjectBookPics/output_76_0.png)
 
 ### Interpret Results
 
@@ -175,15 +175,15 @@ The population of orders we are working with is 838 entries. Discount amounts ra
 
 ### Explore Population Data
 
-![png](output_89_0.png)
+![](ProjectBookPics/output_89_0.png)
 
-![png](output_90_0.png)
+![](ProjectBookPics/output_90_0.png)
 
 It seems the levels of discounts follow almost a uniform distribution. The 10% level of discount carries the lowest amount of orders. The 25% level of discount carries the highest amount of orders. 
 
 ### Run Tests
 
-![png](output_95_1.png)
+![](ProjectBookPics/output_95_1.png)
 
 ### Interpret Results
 
@@ -211,11 +211,11 @@ The population of orders we are working with is 2,155 entries. Each order has be
 
 ### Explore Population Data
 
-![png](output_108_0.png)
+![](ProjectBookPics/output_108_0.png)
 
-![png](output_109_0.png)
+![](ProjectBookPics/output_109_0.png)
 
-![png](output_110_0.png)
+![](ProjectBookPics/output_110_0.png)
 
 ### Run Tests
 
@@ -245,11 +245,11 @@ The population of orders we are working with is 2,078 entries. Each order may or
 
 ### Explore Population Data
 
-![png](output_127_0.png)
+![](ProjectBookPics/output_127_0.png)
 
-![png](output_130_0.png)
+![](ProjectBookPics/output_130_0.png)
 
-![png](output_132_0.png)
+![](ProjectBookPics/output_132_0.png)
 
 Clearly there are differences in the mean, or average revenue per region. Northwind should expect to receive different levels of income from various regions. North America holds the highest revenue per order at 692.70 dollars. Eastern Europe holds the lowest revenue per order 220.75 dollars. Let's run a test on a sample group to see if this holds true. 
 
@@ -283,11 +283,11 @@ The population of orders we are working with is 830 entries. Each order may or m
 
 ### Explore Population Data
 
-![png](output_150_0.png)
+![](ProjectBookPics/output_150_0.png)
 
-![png](output_153_0.png)
+![](ProjectBookPics/output_153_0.png)
 
-![png](output_154_0.png)
+![](ProjectBookPics/output_154_0.png)
 
 ### Run Tests
 
